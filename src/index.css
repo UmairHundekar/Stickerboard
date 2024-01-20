@@ -1,0 +1,55 @@
+html {
+  background-color: rgb(199, 182, 165);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+#root {
+  background-color: rgb(199, 182, 165);
+}
+
+.wooder {
+  border: solid 15px;
+  border-image: url("wood.jpg") 50 round;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pinboard {
+  background: url("pinboard.jpg");
+  
+  background-size: contain;
+
+
+
+}
+
+.stage{
+  
+  background-color: aqua;
+}
+
+#limit-img-size {
+  width: auto;
+  height: 7%
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#editing-zone{
+
+  padding: 10px;
+}
